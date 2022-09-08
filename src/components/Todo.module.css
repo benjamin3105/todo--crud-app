@@ -1,0 +1,26 @@
+.todo label {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 4px;
+    position: relative;
+}
+.done {
+    text-decoration: line-through;
+    background-color: #59C3C3;
+}
+.not_done {
+    background-color: #EBEBEB;
+}
+.checkbox {
+    display: none;
+}
+.remove {
+    background-color: #F45B69;
+    color: #fff;
+    border-radius: 4px;
+    float: right;
+    border: none;
+    top: 0;
+    position: absolute;
+}

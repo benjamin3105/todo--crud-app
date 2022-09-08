@@ -1,0 +1,25 @@
+input {
+    border: 1px solid #EBEBEB;
+    padding: 10px;
+    border-radius: 4px;
+}
+button {
+    padding: 10px;
+    background-color: #4062BB;
+    border: 1px solid #4062BB;
+    color: #fff;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #52489C;
+    border-color: #52489C;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.col {
+    flex-grow: 4;
+}
