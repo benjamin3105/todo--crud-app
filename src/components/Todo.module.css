@@ -16,11 +16,17 @@
     display: none;
 }
 .remove {
-    background-color: #F45B69;
+    background-color: rgba(255,255,255,.3);
     color: #fff;
-    border-radius: 4px;
+    border-radius: 0 4px 4px 0;
     float: right;
     border: none;
     top: 0;
     position: absolute;
+    right: 0;
+    height: 100%;
+    width: 40px;
+}
+.not_done .remove {
+    background-color: rgba(0,0,0,.3);
 }
